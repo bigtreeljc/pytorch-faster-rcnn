@@ -200,8 +200,6 @@ int ROIPoolBackwardLaucher(const float* top_diff, const float spatial_scale, con
 
     return 1;
 }
-
-
 #ifdef __cplusplus
 }
 #endif

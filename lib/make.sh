@@ -6,6 +6,7 @@ CUDA_ARCH="-gencode arch=compute_30,code=sm_30 \
            -gencode arch=compute_61,code=sm_61 \
 	   -gencode arch=compute_70,code=sm_70 "
 
+source activate tensorflow
 # Build RoiPooling module
 cd layer_utils/roi_pooling/src/cuda
 echo "Compiling roi_pooling kernels by nvcc..."

@@ -64,11 +64,6 @@ class imdb(object):
 
   @property
   def roidb(self):
-    # A roidb is a list of dictionaries, each with the following keys:
-    #   boxes
-    #   gt_overlaps
-    #   gt_classes
-    #   flipped
     if self._roidb is not None:
       return self._roidb
     self._roidb = self.roidb_handler()

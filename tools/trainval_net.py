@@ -58,7 +58,6 @@ def parse_args():
   args = parser.parse_args()
   return args
 
-
 def combined_roidb(imdb_names):
   """
   Combine multiple roidbs
